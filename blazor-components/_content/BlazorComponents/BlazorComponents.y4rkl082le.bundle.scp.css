@@ -1,0 +1,91 @@
+/* _content/BlazorComponents/BlazorCustomElement.razor.rz.scp.css */
+.blazor-custom-element[b-sx8u8xda2u] {
+    position: relative;
+    height: 100%;
+    padding: 1em;
+    margin: 1em;
+    border: 2px dashed red;
+    border-radius: 12px;
+    text-align: left;
+    line-height: 26px;
+    display: grid;
+    gap: 10px 0;
+}
+
+    .blazor-custom-element h3[b-sx8u8xda2u] {
+        margin-top: 0;
+        margin-bottom: .5rem;
+        font-size: 1.75rem;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+
+    .blazor-custom-element p[b-sx8u8xda2u] {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+/* _content/BlazorComponents/Utils/BlazorCustomReconnect.razor.rz.scp.css */
+.components-reconnect-modal[b-t7iu2fenme] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #80808080;
+    border-radius: 12px;
+}
+
+.components-reconnect-modal-visible[b-t7iu2fenme] {
+    display: flex;
+}
+
+.components-reconnect-button[b-t7iu2fenme] {
+    position: absolute;
+    display: none;
+}
+
+.components-reconnect-button-visible[b-t7iu2fenme] {
+    display: block;
+}
+
+.components-reconnect-count[b-t7iu2fenme] {
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.components-reconnect-spinner[b-t7iu2fenme] {
+    width: 60px;
+    height: 60px;
+    border: 8px solid;
+    border-top: 8px solid transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: rotate-b-t7iu2fenme 1.2s linear infinite;
+}
+
+.components-reconnect-count-hidden[b-t7iu2fenme],
+.components-reconnect-spinner-hidden[b-t7iu2fenme] {
+    display: none;
+}
+
+@keyframes rotate-b-t7iu2fenme {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+/* _content/BlazorComponents/Utils/BlazorCustomScope.razor.rz.scp.css */
+.blazor-costum-scope[b-ss09l14cgu] {
+    position: relative;
+    height: 100%;
+    background-color: transparent;
+}
