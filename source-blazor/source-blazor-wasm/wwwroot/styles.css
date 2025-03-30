@@ -1,0 +1,7 @@
+﻿@import './_content/BlazorComponents/styles.css';
+@import './BlazorWasm.styles.css';
+
+blazor-custom-element {
+    display: block;
+    height: 100%;
+}

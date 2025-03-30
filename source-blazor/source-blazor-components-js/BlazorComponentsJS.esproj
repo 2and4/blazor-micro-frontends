@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.1738743">
+	<ItemGroup>
+		<None Include="tsconfig.json" />
+		<Content Remove="tsconfig.json" />
+		<None Include="package*.json" />
+		<Content Remove="package*.json" />
+		<TypeScriptConfiguration Remove="tsconfig.json" />
+	</ItemGroup>
+</Project>
