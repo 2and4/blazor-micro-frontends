@@ -34,11 +34,11 @@ export default function BlazorComponent() {
                 {React.createElement('blazor-custom-element-scoped', { 'element-title': 'Blazor Micro Frontend (Scoped)' })}
                 {React.createElement('blazor-custom-element', { 'element-title': 'Blazor Micro Frontend (Unscoped)' })}
             </div>}
-            <div id="blazor-message">No message from blazor received.</div>
+            <div id="blazor-message">No message from Blazor received.</div>
             <div className="card">
                 <div>
                     <button onClick={sendMessage}>
-                        Send message to blazor
+                        Send message to Blazor
                     </button>
                     <button onClick={incrementCount}>
                         Count is {count}

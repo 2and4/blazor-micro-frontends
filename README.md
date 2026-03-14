@@ -1,6 +1,6 @@
-# Blazor Micro Frontends ([.NET 9](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-9/overview))
+# Blazor Micro Frontends ([.NET 10](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/overview))
 
-### Version 1.0.4
+### Version 1.0.5
 
 [Blazor Custom Elements](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/js-spa-frameworks?#blazor-custom-elements) offers the ability to use [ASP.NET Core Razor Components](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/) across various Single Page Applications (SPAs).
 

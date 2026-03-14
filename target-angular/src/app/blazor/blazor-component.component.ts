@@ -1,10 +1,9 @@
 import { BlazorComponentSetup } from './blazor-component-setup';
-import { CommonModule } from '@angular/common';
 import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit, OnDestroy } from '@angular/core';
 
 @Component({
   selector: 'app-blazor-component',
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './blazor-component.component.html',
   styleUrl: './blazor-component.component.css',
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

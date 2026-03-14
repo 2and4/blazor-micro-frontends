@@ -47,10 +47,10 @@ export default defineComponent({
         <blazor-custom-element-scoped element-title="Blazor Micro Frontend (Scoped)"></blazor-custom-element-scoped>
         <blazor-custom-element element-title="Blazor Micro Frontend (Unscoped)"></blazor-custom-element>
       </div>
-      <div id="blazor-message">No message from blazor received.</div>
+      <div id="blazor-message">No message from Blazor received.</div>
       <div class="card">
         <div>
-          <button @click="sendMessage">Send message to blazor</button>
+          <button @click="sendMessage">Send message to Blazor</button>
           <button @click="incrementCount">Count is {{ count }}</button>
         </div>
       </div>

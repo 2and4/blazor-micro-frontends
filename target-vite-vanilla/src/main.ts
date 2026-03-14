@@ -21,10 +21,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <blazor-custom-element-scoped element-title='Blazor Micro Frontend (Scoped)'></blazor-custom-element-scoped>
         <blazor-custom-element element-title='Blazor Micro Frontend (Unscoped)'></blazor-custom-element>
       </div>
-      <div id='blazor-message'>No message from blazor received.</div>
+      <div id='blazor-message'>No message from Blazor received.</div>
       <div class='card'>    
         <div>
-            <button id="send-message" style="float:left;">Send message to blazor</button>
+            <button id="send-message" style="float:left;">Send message to Blazor</button>
             <button id="counter" type="button">Count is 0</button>
         </div>
       </div>
